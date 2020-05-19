@@ -1,38 +1,139 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+body{
+  font-family: 'simplifica';
+}
+
+.home-body{
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+}
+
+.about-main-div{
+  display: flex;
+  align-self: center;
+  text-align: center;   
+  justify-content: space-around;
+  margin-top: 10%;
+ }
+
+.about-div{
+  width: 40%;
+  padding: 15px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgba(255, 255, 255, 0.7);  
 }
 
-.App-link {
-  color: #61dafb;
+.contactForm-div{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.7); 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-body h1{
+  align-self: center;
+  font-size: 4em;
+  margin-top: 5%;
+  font-family: 'Chantelli';
+  background-color: rgba(255, 255, 255, 0.7);  
+  width: 30%;
+  border-radius: 50%;  
 }
+
+.home-body h2{
+  align-self: center;
+  font-family: 'simplifica';
+  font-size: 2em;
+  padding: 5mm;
+  background-color: rgba(255, 255, 255, 0.7);  
+  width: 30%;
+  border-radius: 50%; 
+}
+
+
+
+.statement{
+  margin-top: 5%;
+  align-self: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);  
+}
+
+.statementText{
+  font-style: italic;
+  font-size: x-large;
+  padding: 10px;  
+}
+
+.top-right-img{
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+  height: 50%;
+  opacity: 0.5;
+}
+.top-left-img{
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  opacity: 0.5;
+}
+.bottom-left-img{
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  top: 50%;
+  opacity: 0.7;
+}
+.bottom-right-img{
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  opacity: 0.7;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #DC6744;
+  border-bottom: #282c34;
+  border-bottom-width: 10;
+  width: 263px;
+  left: 50;
+  align-self: center;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
+

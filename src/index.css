@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Chantelli';
+  src: local('Chantelli'), url(./fonts/Chantelli_Antiqua.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'simplifica';
+  src: local('simplifica'), url(./fonts/simplifica.ttf) format('truetype');
+}
